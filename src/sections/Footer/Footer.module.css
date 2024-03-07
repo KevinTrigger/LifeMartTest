@@ -1,0 +1,5 @@
+.footer {
+  background-color: var(--color-light-black);
+  color: var(--color-white);
+  text-align: right;
+}

@@ -1,0 +1,12 @@
+.header_wrap {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  border-top: 1px solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+
+  -webkit-text-stroke: 0.2px var(--color-black);
+
+  -webkit-box-shadow: 0px 7px 20px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 7px 20px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 7px 20px 0px rgba(34, 60, 80, 0.2);
+}

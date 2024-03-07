@@ -1,0 +1,21 @@
+td {
+  text-align: center;
+}
+
+.columns_title {
+  color: var(--color-title);
+}
+
+.column_rightSide {
+  text-align: right;
+}
+
+td {
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  thead {
+    display: none;
+  }
+}

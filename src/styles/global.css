@@ -1,0 +1,15 @@
+:root {
+  --color-black: #000000;
+  --color-white: #fff;
+  --color-light-black: #222222;
+  --color-title: #0170AE;
+  --color-dark-gray: #755858;
+  --color-blue: #2FA6EA;
+  --color-green: #61A91A;
+  --color-grass: #5da130;
+  --color-cloud: #00bfff;
+  --color-gray: #e5e5e5;
+  --color-bg-input: #EEF8FF;
+  
+  --font-size-main: 24px; 
+}
