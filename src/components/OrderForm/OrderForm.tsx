@@ -5,7 +5,7 @@ import { clearProducts } from "../../redux/orderSlice";
 import { motion } from "framer-motion";
 import { formOrderVariants, productVariants } from "../../animations/variants";
 import TableHead from "../TableHead/TableHead";
-import EmptyBasket from "../EmpyBasket/EmptyBasket";
+import EmptyBasket from "../EmptyBasket/EmptyBasket";
 import cl from "./OrderForm.module.css";
 
 const OrderForm: React.FC = () => {
