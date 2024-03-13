@@ -38,6 +38,7 @@ const OrderForm: React.FC = () => {
       );
 
     dispatch(clearProducts());
+    setAmount(0);
   };
 
   useEffect(() => {
