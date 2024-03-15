@@ -7,14 +7,19 @@ body {
   font-size: var(--font-size-main);
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 .App {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100dvh;
 }
 
 .container {
   padding: 16px;
   max-width: 1440px;
   margin: 0 auto;
+  height: 100%;
 }

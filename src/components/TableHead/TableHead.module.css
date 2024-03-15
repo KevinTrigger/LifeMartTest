@@ -1,21 +1,14 @@
-td {
-  text-align: center;
-}
-
-.columns_title {
+.thead__titles {
   color: var(--color-title);
-}
-
-.column_rightSide {
-  text-align: right;
-}
-
-td {
   text-align: left;
 }
 
+.thead__titles:not(:first-child) {
+  text-align: right;
+}
+
 @media (max-width: 800px) {
-  thead {
+  .thead {
     display: none;
   }
 }

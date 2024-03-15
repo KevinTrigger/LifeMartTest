@@ -1,14 +1,14 @@
 import AddForm from "../../components/AddForm/AddForm";
-import SaveForm from "../../components/OrderForm/OrderForm";
+import OrderForm from "../../components/OrderForm/OrderForm";
 import cl from "./Main.module.css";
 
 const Main = () => {
   return (
-    <main className={cl.main_wrap}>
+    <main className={cl.main__wrap}>
       <div className="container">
-        <div className={cl.content_wrap}>
+        <div className={cl.main__content}>
           <AddForm />
-          <SaveForm />
+          <OrderForm />
         </div>
       </div>
     </main>

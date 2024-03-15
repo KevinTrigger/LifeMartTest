@@ -1,19 +1,16 @@
-main {
+.main__wrap {
   flex: 1;
-}
-
-.main_wrap {
   background-color: var(--color-gray);
 }
 
-.content_wrap {
-  margin-top: 20px;
+.main__content {
+  padding-top: 20px;
   display: flex;
-  /* flex-direction: column; */
+  height: 100%;
 }
 
 @media (max-width: 800px) {
-  .content_wrap {
+  .main__content {
     display: flex;
     flex-direction: column;
     

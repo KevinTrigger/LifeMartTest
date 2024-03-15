@@ -6,12 +6,12 @@
   margin-right: 50px;
 }
 
-.form_item {
+.form__item {
   display: flex;
   flex-direction: column;
 }
 
-.form_item:not(:first-child) {
+.form__item:not(:first-child) {
   margin-top: 37px;
 }
 
@@ -30,7 +30,7 @@ label {
   font-weight: 300;
 }
 
-.button {
+.form__button {
   max-width: 100%;
   color: var(--color-white);
   background-color: var(--color-blue);
@@ -40,7 +40,7 @@ label {
   margin-top: 46px;
 }
 
-.button:hover {
+.form__button:hover {
   background-color: var(--color-cloud);
   transition: 0.2s all linear;
 }

@@ -2,11 +2,11 @@ import cl from './TableHead.module.css'
 
 const TableHead: React.FC = () => {
   return (
-    <thead>
-      <tr className={cl.columns_title}>
-        <td>Название товара</td>
-        <td className={cl.column_rightSide}>Количество</td>
-        <td className={cl.column_rightSide}>Стоимость</td>
+    <thead className={cl.thead}>
+      <tr className={cl.thead__titles}>
+        <td className={cl.thead__titles}>Название товара</td>
+        <td className={cl.thead__titles}>Количество</td>
+        <td className={cl.thead__titles}>Стоимость</td>
       </tr>
     </thead>
   );
